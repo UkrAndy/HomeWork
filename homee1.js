@@ -8,11 +8,11 @@ class GuessRandom{
         return randCompNum
     }
     toString(){
-        return `Computer number: ${randCompNum}`
+        return `Computer number: ${randCompNum}`  //Помилка, що це за змінна randCompNum
     }
 }
 class GuessGame{
-    constructor(guess1,guess2,score1,score2,min,max){
+    constructor(guess1,guess2,score1,score2,min,max){  У конструктор треба передавати тільки min,max
         this.guess1 = guess1
         this.guess2 = guess2
         this.score1 = score1
